@@ -1,0 +1,16 @@
+<html>
+
+<head>
+			<tittle> <h1 style = "color: green" > NATURE </h1> </tittle>
+</head>
+body {
+    background-image: url("image.img.jpg/1478639168068.jpg");
+}
+					<body style = "background:gray">
+	<a href="http://www.defenders.org/cheetah/basic-facts/">this is the page that speak about the cheetah</a>
+<marquee>
+		<img src='http://s2.thingpic.com/images/kt/Y6A6ZdxeGdxhDLHiJwaBBXY8.jpeg'>
+</marquee>
+		<h1> Fastest mammal on land, the cheetah can reach speeds of 60 or perhaps even 70 			miles (97 or 113 kilometers) an hour over short distances.</h1>
+</body>
+</html>
