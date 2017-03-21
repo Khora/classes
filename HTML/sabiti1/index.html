@@ -1,0 +1,93 @@
+<html>    
+ 
+<head> 
+	<title>First Page</title>
+
+<!--todays lesssons we created a class eg nice boarder which adds a boarder to elements and then nice boarder to hover that changes when you place the mouse on top of it -->
+<style>
+
+
+
+
+.nice-border{
+	border:  20px solid orange;
+        padding: 7px;
+
+}
+
+.nice-border:hover{
+	padding:7px;
+}
+
+</style>
+
+</head>
+
+
+<body style ="background-color:white">
+
+	<h1 class="nice-border"> goldenboy yes 1</h1>
+
+	<h1 style="color:red">I LOVE SIERRALEONE </h1>
+
+       
+	<!--<style>"body backround-color:lightgreen">-->
+
+       
+	<A HREF="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbTw_7z40dVTzxEoUqIiUC_VMWXUivD3N1HxSh2BneXeYraj5M1Q">
+
+	<img  class="nice-border" src="http://www.aspca.org/sites/default/files/blog_our-predictions-for-farm-animals_122915_facebook.jpg"/>
+</A>
+
+	
+	<br>
+	
+	 <!--I got this from youtube and embedded it here by pressing the button share-->	
+	
+	<iframe width="560" height="315"class="nice-border" src="https://www.youtube.com/embed/2EA5gLNlC7Q" frameborder="0" allowfullscreen></iframe>
+		
+	
+	<br>
+
+	<br>
+
+        <!-- THE OBJECT THAT MOVES-->
+
+	<marquee>
+
+		<A HREF="http://sierraleoneflag.facts.co/sierraleoneflagof/sierraleoneflag.php">
+			<IMG SRC="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbTw_7z40dVTzxEoUqIiUC_VMWXUivD3N1HxSh2BneXeYraj5M1Q"/> 
+		</A>
+       	</marquee>
+    	 
+	<br>
+
+
+	<br>
+
+<!--i got this from http://www.inmotionhosting.com/support/edu/website-design/using-php-and-mysql/create-html-form and used ctrl c to copy and ctrl v to paste it for my comment form-->
+
+
+	
+		A form created for comments
+	<br>
+	<br>
+
+<form method='post'>
+ Name:<input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+      
+	
+
+
