@@ -1,0 +1,80 @@
+h2 {
+		color: blue;
+
+
+	}
+h1 {
+	color: green
+	
+}
+
+
+p {
+	color: white;
+	font-style: italic;
+	
+}
+
+body {
+	background-color: black;
+} 
+
+div {
+    color:rgb(839,983,2)
+    width: 500px;
+    height: 200px;
+    background-color: rgb(1,189,65)
+    box-shadow: 20px 12px 10px blue;
+    padding:30px;
+    margin: 100px
+    
+}
+
+#info{
+	background-color: red
+}
+
+.my-picture {
+	width: 50%;
+	height: 50%;
+}
+.big-div{
+	width:10%;
+	height:10%;
+}
+
+img {padding: 12px}
+a {
+	color: green
+}
+
+a:hover   {
+		border: 20px solid red;
+		background-color: black;
+		color: red;
+		margin: 30px
+}	
+
+	img {
+		color: green
+}	
+
+img:hover	{
+		border:30px white;
+		background-color: blue;
+		color: green;
+		margin: 50px
+}
+div{
+		background-image: url('image/wallpaper.jpg');
+		background-color: blue;
+		height:70px
+
+}
+div.hover{
+		background-image: url('image/wallpaper.jpg');
+		background-color: blue;
+		height: 70px
+}
+
+
