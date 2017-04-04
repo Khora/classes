@@ -7,13 +7,10 @@
        <tittle>My journey to Europe.</title>
        <meta charset="utf-8">
  <style>
-p.small {
-    line-height: 70%;
-}
+	p.big {
+	    line-height: 200%;
+	}
 
-p.big {
-    line-height: 200%;
-}
 </style>
 </head>
 <body>
@@ -55,8 +52,30 @@ p.big {
    By 7:00 am all the new friends we were travelling with wokeup and we started looking for our terminal to transit from. Having moved almost the whole airport,one of us went and asked where our transit was and that was when everybody was happy and we arrived after moving for two hours.
    We sat on the chairs and waited for our flight. The plane was there then check in started and finally got in the plane. We were hungry not to mention.</p>
 
+<!-- Dubai Map Start -->
+
+<div id="Dubaimap" style="width:600px;height:400px;background:grey"></div>
+
+<script>
+
+	function myMap() {
+	var mapOptions = {
+	    center: new google.maps.LatLng(25.195934, 55.277504),
+	    zoom: 12,
+	    mapTypeId: google.maps.MapTypeId.HYBRID
+	}
+	var map = new google.maps.Map(document.getElementById("Dubaimap"), mapOptions);
+	}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDzaIlaM_pD17T_0ukuN7N35d5q6eT_tDM&callback=myMap">
+</script>
+
+<!-- Dubai Map Ending -->
+
   <hr>
-<br>
+  <br>
   
  
   <h2>Istanbul-Turkey</h2>
@@ -75,6 +94,8 @@ p.big {
   well,the journey was far that i slept in intervals as i woke up.finally,at 7:00 am in the morning we arrived in konya.
   </p>
     
+  <br>
+
 <!-- Istanbul Map Start -->
 
 <div id="istanbulmap" style="width:600px;height:400px;background:grey"></div>
@@ -112,10 +133,34 @@ come for us.that was our day one in a new city by the name Konya. We took a trai
     we spent like 45 minutes to reach our place they had arranged for us. I admit it was not as organised as we had expected but of course we had to cope with life like anybody else.  The house had many people living inside during that time they had all gone for work. I won't talk much about this city but in summary i spent there a full year and alot happened in my life. I made up my mind to leave that city to try and move my life on for new challenges. I remember the day I left Konya I went and worked and it was a saturday ON 28th/11/2015.  My journey to Europe had begun. By 9:30PM I was on the train going to octoger/bus station. I waited until 10:30pm to begin my journey to Izmir where I was to find my smuggler to cross the AEGEAN SEA.  We arrived at 6:00 am in the morning.
    </p>
 
-   <hr>
+   
    <br>
 
+<!-- Konya Map Start -->
 
+<div id="Konyamap" style="width:600px;height:400px;background:grey"></div>
+
+<script>
+
+	function myMap() {
+	var mapOptions = {
+	    center: new google.maps.LatLng(37.873545, 32.495487),
+	    zoom: 12,
+	    mapTypeId: google.maps.MapTypeId.HYBRID
+	}
+	var map = new google.maps.Map(document.getElementById("Konyamap"), mapOptions);
+	}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDzaIlaM_pD17T_0ukuN7N35d5q6eT_tDM&callback=myMap">
+</script>
+
+<!--Konya Map Ending -->
+
+   <hr>
+
+   <br>
 
    <h2>Izmir-Turkey</h2>
 
@@ -152,6 +197,7 @@ and i took my seat.  Passengers started coming inside and the bus was full.We mo
 </script>
 
 <!--izmir Map Ending -->
+
 
 
 
