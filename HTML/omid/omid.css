@@ -1,0 +1,39 @@
+body{
+    background-image:url('40734523.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+.header{
+    width:900px;
+    height:200px;
+    background:#ffffff;
+    margin-left:400px;
+    margin-top:50px;
+    border-radius: 10px 160px 10px 10px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+
+
+.body{
+    width:900px;
+    height:600px;
+    background:#ffffff;
+    margin-left:400px;
+    margin-top:20px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+
+
+.footer{
+    width:900px;
+    height:300px;
+    background:#ffffff;
+    margin-left:400px;
+    margin-top:20px;
+    border-radius: 10px 10px 10px 160px;
+    box-shadow: 10px 10px 10px #000000;
+}
