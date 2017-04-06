@@ -1,5 +1,5 @@
 body{
-    background-image:url('40734523.jpg');
+    background-image:url('images.jpeg');
     background-repeat:no-repeat;
     background-size:cover;
 }
@@ -13,17 +13,18 @@ body{
     margin-top:50px;
     border-radius: 10px 160px 10px 10px;
     box-shadow: 10px 10px 10px #000000;
-}
+
+}   
 
 
 
-.body{
-    width:900px;
-    height:600px;
-    background:#ffffff;
-    margin-left:400px;
-    margin-top:20px;
-    box-shadow: 10px 10px 10px #000000;
+.body{ font-size:90%;
+       width:900px;
+       height:800px;
+       background:#ffffff;
+       margin-left:400px;
+       margin-top:20px;
+       box-shadow: 10px 10px 10px #000000;
 }
 
 
