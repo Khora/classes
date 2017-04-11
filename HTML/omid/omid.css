@@ -5,7 +5,7 @@ body{
 }
 
 
-.header{
+.header{font-size:80%;
     width:900px;
     height:200px;
     background:#ffffff;
@@ -18,9 +18,9 @@ body{
 
 
 
-.body{ font-size:90%;
+.body{ font-size:70%;
        width:900px;
-       height:800px;
+       height:900px;
        background:#ffffff;
        margin-left:400px;
        margin-top:20px;
