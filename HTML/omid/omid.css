@@ -13,8 +13,10 @@ body{
     margin-top:50px;
     border-radius: 10px 160px 10px 10px;
     box-shadow: 10px 10px 10px #000000;
-
+    text-shadow:44px;
 }   
+
+a{display:inline-block}
 
 
 

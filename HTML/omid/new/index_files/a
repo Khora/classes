@@ -1,0 +1,10 @@
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
+if (!window['google']['visualization']) {
+window['google']['visualization'] = {};
+google.visualization.Version = '1.1';
+google.visualization.JSHash = '676331e4f5be6ab26a5ba55c06d0ef71';
+google.visualization.LoadArgs = 'file\x3dvisualization\x26v\x3d1.1\x26packages\x3dcorechart%2Ctable\x26async\x3d2';
+}
+google.loader.writeLoadTag("css", google.loader.ServiceBase + "/api/visualization/1.1/676331e4f5be6ab26a5ba55c06d0ef71/ui+en,table+en.css", true);
+google.loader.writeLoadTag("script", google.loader.ServiceBase + "/api/visualization/1.1/676331e4f5be6ab26a5ba55c06d0ef71/webfontloader,format+en,default+en,ui+en,table+en,corechart+en.I.js", true);
+}
